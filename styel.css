@@ -3,7 +3,920 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Arimo", sans-serif;
 }
-h1{
-    color: red;
+body{
+    background-color:#ebf3f3 ;
+}
+/* ---nave dive stat--*/
+.navebar{
+    background-color: #edf5f5;
+}
+.dropdown a{
+    background-color:  #ebf3f3;
+    transition: 0.5s;
+}
+.dropdown a:hover{
+    background-color:#b9e4e4;
+    font-weight: bold;
+    border-radius: 5px;
+}
+ul li:hover{
+    background-color:#b9e4e4;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.form-inline{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.navbar-brand{
+    margin-left: 10px;
+    width:150px;
+    background-color: rgb(87, 154, 231);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px #3c3fee;
+    transition: 0.5s;
+
+}
+.navbar-brand:hover{
+    background-color: rgb(177, 208, 243);
+    box-shadow: 1px 2px #c4db5c;
+}
+/* ---nave dive End--*/
+
+/* ---Sign-up dive stat--*/
+.sin-up li{
+   color: #fff;
+    margin: 1px;
+    padding: 0px;
+    border-radius: 5px;
+
+}
+.sin-up li a{
+    color: #fff !important;
+}
+/* ---Sign-up dive End--*/
+
+/*---about dive stat--*/
+.about-div{
+    width: 100%;
+    display: flex;
+    background-color: #ebf3f3;
+}
+.about-title{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding:10px;
+    background-color: #8bdaee;
+    color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 1px 2px #000;
+    transition: 0.5s;
+}
+.about-title:hover{
+    background-color:aqua;
+    box-shadow: 1px 2px #8abe97;
+}
+
+.about-me{
+    width: 50%;
+    margin-top: 30px;
+}
+.about-medil{
+    display: flex;
+    width: 100%;
+
+}
+.about-medil img{
+    margin: 5px;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+.about-medil img:hover{
+    width: 155px;
+    box-shadow: 1px 2px #000;
+}
+.about-medil p{
+    margin: 5px;
+    background-color: #cbe6ed;
+    text-align: justify;
+    box-shadow: 1px 2px #000;
+    padding: 10px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 220, 233);
+    transition: 0.5s;
+}
+.about-medil p:hover{
+     transform: scale(0.9);
+     box-shadow: 1px 2px #8abe97;
+}
+.about-me button{
+    width: 200px;
+    text-align: center;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.about-me button a{
+    color: #fff;
+}
+
+/*---about dive End--*/
+
+/*---skills dive Stat--*/
+.progres-div{
+    width: 50%;
+    margin-top: 30px;
+}
+.progress-bare{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.progress-bare h4{
+    font-size: 20px;
+}
+.progress-div-title h3{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding:10px;
+    background-color: #8bdaee;
+    color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 1px 2px #000;
+    transition: 0.5s;
+}
+
+.progress-div-title h3:hover{
+    background-color:aqua;
+    box-shadow: 1px 2px #8abe97;
+}
+
+/*---skills dive End--*/
+
+/*---Our Service dive stat--*/
+.border-dark:hover{
+    transform: scale(0.9);
+    box-shadow: 1px 2px #2a4430;
+}
+.oservice:hover{
+    transform: scale(0.9);
+    font-weight: bolder;
+
+}
+.border-dark-subtle:hover{
+    transform: scale(1.9);
+    font-weight: bolder;
+    box-shadow: 1px 2px #2a4430;
+}
+
+/*---Our Service dive end--*/
+
+/*--------Our Tram div Stat hear-------*/
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+}
+.blog .carousel-indicators .active {
+background: #707070;
+margin-bottom:10px;
+}
+
+.our-team {
+  padding: 0 0 40px;
+  background: #f9f9f9;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 5px solid #00325a;
+  transition: 0.5s;
+}
+.our-team:hover{
+  border-bottom: 5px solid #2f2f2f;
+}
+
+.our-team .pic{
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+  transition: 0.5s;
+}
+.our-team .pic:before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #00325a;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 1;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:before{
+  height: 100%;
+  background: #2f2f2f;
+}
+.our-team .pic:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffffff00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:after {
+  background: #145889;
+}
+.our-team .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+  position: relative;
+  z-index: 2;
+}
+.our-team:hover .pic img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+.our-team .team-content {
+  margin-bottom: 30px;
+}
+.our-team .title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4e5052;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.our-team .post {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+.our-team .social {
+  width: 100%;
+  padding-top: 10px;
+  margin: 0;
+  background: #2f2f2f;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+.our-team:hover .social {
+  bottom: 0;
+}
+.our-team .social li {
+  display: inline-block;
+}
+.our-team .social li a {
+  display: block;
+  padding-top: 6px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover {
+  color: #145889;
+  background: #f7f5ec;
+}
+/*--------Our Tram div End hear-------*/
+
+/*--------Contact us div Stat hear-------*/
+.contact-div{
+  background-image: url('src/pexels-joshsorenson-1714208.jpg');
+background-position: center;
+background-size: cover;
+text-align: center;
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.contact-div h4{
+  color: #fff;
+  padding: 50px 0;
+  margin: 10px;
+}
+.contact-div button{
+  padding: 1dvi;
+  margin: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.contact-div button a{
+  color: #fff;
+  text-decoration: none;
+}
+.contact-div button:hover{
+  background-color: #3c3fee;
+  box-shadow: 1px 2px #8fbd46;
+  transform: scale(0.9);
+}
+/*--------Contact us div End hear-------*/
+
+/*--------price div Stat hear-------*/
+.pricingTable{
+  color: #fff;
+  background: linear-gradient(to bottom,#2F2B2C 3%,#231F20 0%);
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 50px 0 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.pricingTable:after{
+  content: "";
+  background: #2F2B2C;
+  width: 100%;
+  height: 15px;
+  position: absolute;
+  bottom: 40px;
+  left: 0
+}
+.pricingTable .pricingTable-header{
+  background: #c2a816;
+  padding: 8px 0;
+  position:relative;
+  margin: 0 0 15px;
+}
+.pricingTable .pricingTable-header:before,
+.pricingTable .pricingTable-header:after{
+  content: "";
+  background:linear-gradient(to top left,#189ce8 49%,#2F2B2C 50%);
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.pricingTable .pricingTable-header:after{
+  background:linear-gradient(to top right,#189ce8 49%,#2F2B2C 50%);
+  left: auto;
+  right: 0;
+}
+
+.pricingTable .title{
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.pricingTable .price-value{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 0 0 20px;
+  position: relative;
+}
+
+.pricingTable .price-value:before,
+.pricingTable .price-value:after{
+  content: "";
+  background: #848081;
+  width: 70px;
+  height: 3px;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.pricingTable .price-value:after{
+  background: #c2a816;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  right: 65px;
+}
+
+.pricingTable .pricing-content{
+  text-align: left;
+  padding: 0;
+  margin: 0 0 30px;
+  list-style: none;
+  display: block;
+}
+
+.pricingTable .pricing-content li{
+  background: #2F2B2C;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 35px;
+  padding: 5px 15px 5px 45px;
+  margin: 0 0 8px;
+  position: relative;
+}
+
+.pricingTable .pricing-content li:last-child{ margin: 0; }
+
+.pricingTable .pricing-content li:before{
+  content: "☑️";
+  color: #81DE4A;
+  font-family: "Font Awesome 5 free";
+  font-size: 15px;
+  font-weight: 900;
+  position: absolute;
+  top: 7px;
+  left: 20px;
+}
+
+.pricingTable .pricing-content li.disable:before{
+  content: "❌";
+  color: #CD2B30;
+}
+
+.pricingTable .pricingTable-signup a{
+  color:#fff;
+  background:#c2a816;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+  padding: 10px 0;
+  width: 200px;
+  display: inline-block;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.pricingTable .pricingTable-signup a:hover{
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+/*--------price div End hear-------*/
+
+/*--------Testimonials div Stat hear-------*/
+.Testimoniall{
+  margin: 30px;
+  margin-left: 70px;
+  margin-top: 40px;
+  background-color:#c2a816;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.Testimoniall:hover{
+  box-shadow: 0 0 15px #6d6c2c;
+}
+
+.Testimoniall img{
+  margin-top: -60px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+ width: 120px;
+ height: 120px;
+ border: 10px solid rgba(211, 239, 243, 0.555);
+ transition: 0.5s;
+}
+.Testimoniall img:hover{
+  transform: scale(0.9);
+}
+.Testimoniall p{
+  padding: 5px;
+  text-align: justify;
+}
+.Testimoniall h5{
+  font-size: 22px;
+  color: #189ce8;
+  transition: 0.5s;
+}
+.Testimoniall h5:hover{
+  color: #0b6092;
+  box-shadow: 0 0 15px #a5b5df;
+}
+.Testimoniall h5 span{
+  color: #fff;
+  font-size: 15px;
+}
+
+/*--------Testimonials div End hear-------*/
+
+/* -- gei touch div stat here -- */
+#textarea{
+  resize: none;
+}
+.address-inp{
+  padding: 15px;
+  margin: 20px;
+  background-color: #fff;
+}
+.address-inp b{
+  font-size: 20px;
+}
+.geticon i{
+ margin-left: 30px;
+ font-size: 25px;
+}
+.fileuplog{
+  font-size: 20px;
+  border: none;
+color: coral;
+}
+
+.form-group span{
+  font-size: 15px;
+ }
+
+/* -- gei touch div End here -- */
+
+/*-- Skills div Start here --*/
+.progress-div{
+  margin: 30px ;
+  width: 100%;
+}
+.progress{
+  height: 20px;
+  text-align: center;
+  width: 100%;
+
+}
+.progress-html{
+  width: 0;
+
+  animation-timing-function: linear;
+  animation: html 6s 2s forwards;
+}
+@keyframes html{
+  form{width: 0;}
+  to{width: 40%; background-color: #3c3fee;}
+}
+.progress-css{
+  width: 0;
+  background-color: #0d9b83;
+  animation-timing-function: linear;
+  animation: css 6s 2s forwards;
+}
+@keyframes css{
+  form{width: 0;}
+  to{width: 50%; background-color: #0d9b83;}
+}
+.progress-javasrcp{
+  width: 0;
+  background-color: #0cc735;
+  animation-timing-function: linear;
+  animation: java 6s 2s forwards;
+}
+@keyframes java{
+  form{width: 0;}
+  to{width: 80%; background-color: #0cc735;}
+}
+.progress-node{
+  width: 0;
+  background-color: #f3c90e;
+  animation-timing-function: linear;
+  animation: node 6s 2s forwards;
+}
+@keyframes node{
+  form{width: 0;}
+  to{width: 30%; background-color: #f3c90e;}
+}
+.progress-ills{
+  width: 0;
+  background-color: #f30e66;
+  animation-timing-function: linear;
+  animation: ills 6s 2s forwards;
+}
+@keyframes ills{
+  form{width: 0;}
+  to{width: 90%; background-color:  #f30e66;}
+}
+.progress-photo{
+  width: 0;
+  background-color: #60c3eb;
+  animation-timing-function: linear;
+  animation: photo 6s 2s forwards;
+}
+@keyframes photo{
+  form{width: 0;}
+  to{width: 70%; background-color: #60c3eb;}
+}
+/*-- Skills content tart here --*/
+
+
+#skill{
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  background: none;
+  margin: 40px 30px;
+  box-shadow: none;
+  position: relative;
+}
+#fff .col-sm-6{
+  margin: 20px;
+  width: 100%;
+}
+#fff{
+  margin: 40px 20px;
+}
+#skill:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 12px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#skill > span{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+#skill .progress-left{
+  left: 0;
+}
+#skill .progress-bar{
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 12px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+#skill .progress-left .progress-bar{
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+#skill .progress-right{
+  right: 0;
+}
+#skill .progress-right .progress-bar{
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+#skill .progress-value1{
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: #ffffff;
+  font-size: 24px;
+  color: #ced10b;
+  line-height: 135px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.progress.blue .progress-bar1{
+  border-color: #7bd10b;
+}
+.progress.blue .progress-left .progress-bar1{
+  animation: loading-2 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-1{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+  }
+}
+ @keyframes loading-2{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(50deg);
+      transform: rotate(50deg);
+  }
+ }
+ /* @keyframes loading-3{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+  }
+} 
+ @keyframes loading-4{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(36deg);
+      transform: rotate(36deg);
+  }
+} 
+ @keyframes loading-5{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(126deg);
+      transform: rotate(126deg);
+  }
+} */
+
+/*-- Skills div End here --*/
+
+#animat .progress{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+#skill .progress-value2{
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: #ffffff;
+  font-size: 24px;
+  color: #72ee0d;
+  line-height: 135px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.progress.blue .progress-bar2{
+  border-color: #0b5ad1;
+}
+.progress.blue2 .progress-left .progress-bar{
+  animation: ani2 1.5s linear forwards 1.8s;
+}
+@keyframes ani2{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(80deg);
+      transform: rotate(80deg);
+  }
+}
+
+
+#skill .progress-value3{
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: #ffffff;
+  font-size: 24px;
+  color: #ee720d;
+  line-height: 135px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.progress.blue .progress-bar3{
+  border-color: #d1820b;
+}
+.progress.blue .progress-left .progress-bar3{
+  animation: load-2 1.5s linear forwards 1.8s;
+}
+@keyframes load-1{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+  }
+}
+@keyframes load-2{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(144deg);
+      transform: rotate(144deg);
+  }
+ }
+ @keyframes load-3{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+  }
+} 
+ @keyframes load-4{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(36deg);
+      transform: rotate(36deg);
+  }
+} 
+ @keyframes load-5{
+  0%{
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100%{
+      -webkit-transform: rotate(126deg);
+      transform: rotate(126deg);
+  }
+}
+
+
+@media only screen and (max-width: 990px) {
+  .progress{ 
+    margin-bottom: 20px;
+}
+    .about-medil{
+        flex-direction: column;
+    }
+    .about-me p{
+        width: 90%;
+    }
+    .our-team {
+        margin-bottom: 10px;
+      }
+      .pricingTable{ margin: 0 0 40px;
+      }
+    #Testimoniall{
+      display: flex;
+      margin: 0;
+    }
+    .Testimoniall{
+      margin: 5px;
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+    .animation-bar{
+      flex-direction: column;
+      width: 100%;
+  }
+  .progress-div{
+    margin: 30px ;
+    width: 100%;
+  }
+  }
+  @media only screen and (max-width: 1200px) {
+    .Testimoniall{
+      margin: 5px;
+      margin-left: 65px;
+      margin-top: 40px;
+    }
+
+  .progress-div{
+    margin: 30px ;
+    width: 100%;
+  }
+  #fff{
+    margin: 50px 20px;
+  }
+  #animat .progress{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
 }

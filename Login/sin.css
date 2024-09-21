@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Arimo", sans-serif;
+}
+body{
+    background-color:#ebf3f3 ;
+    margin-top: 20px;
+}
+.lagin-tittle{
+    text-shadow: 1px 2px #b89f4e; 
+    transition: 0.5s;
+}
+.lagin-tittle:hover{
+    transform: scale(0.9);
+}
+.form-div{
+    width: 70%;
+    margin: auto;
+}
+  .address-inp{
+    padding: 15px;
+    margin: 20px;
+    background-color: #fff;
+  }
+  .address-inp b{
+    font-size: 20px;
+  }
+  .geticon i{
+   margin-left: 30px;
+   font-size: 25px;
+  }
+  .fileuplog{
+    font-size: 20px;
+    border: none;
+  color: coral;
+  }
+  
+  .form-group span{
+    font-size: 15px;
+   }

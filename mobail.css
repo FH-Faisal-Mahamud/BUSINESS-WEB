@@ -1,0 +1,86 @@
+/*----navbar stat hear---*/
+.navebar{
+    background-color: #edf5f5;
+}
+ul li{
+    margin: 1px;
+    padding-left: 10px;
+}
+.dropdown a{
+    background-color:  #ebf3f3;
+}
+.dropdown a:hover{
+    background-color:#b9e4e4;
+}
+ul li:hover{
+    background-color:#b9e4e4;
+
+}
+.navebar{
+    text-align: left;
+}
+.form-inline{
+    display: block;
+}
+/*---search var stat--*/
+.sin-up li{
+    padding-left: 10px;
+
+}
+.form-inline{
+    margin: 10px;
+}
+/*---search var end--*/
+/*----navbar end hear---*/
+
+/*----about stat hear---*/
+.active img{
+    height: 80vh;
+}
+.about-medil{
+ align-items: center;
+ width: 100%;
+}
+.about-medil{
+    flex-direction: column;
+}
+.about-div{
+    flex-direction: column;
+
+}
+.about-me{
+    width: 100%;
+    text-align: center;
+}
+.about-medil p{
+    width: 95%;
+   
+}
+/* ---Sign-up dive stat--*/
+.progress-div{
+    width: 100%;
+}
+/* ---Sign-up dive end--*/
+.Testimoniall{
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-top: 50px;
+}
+
+/* animation progress var */
+.animation-bar{
+    flex-direction: column;  
+}
+#animat{
+    flex-direction: row;
+    align-items: center;
+
+}
+#animat .progress{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#animat .progress .progress-value{
+    margin-top: -20px;
+}
