@@ -903,6 +903,16 @@ text-align: center;
   text-decoration: none;
   color: #000;
 }
+.Copyright{
+  
+  background-color: #8fcde6;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+.Copyright .Copyright-des{
+  font-size: 18px;
+}
 /* footer div End hear */
 
 @media only screen and (max-width: 990px) {
