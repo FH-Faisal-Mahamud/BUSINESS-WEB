@@ -143,6 +143,15 @@ function submitFn(){
         },3000);
         return false;
     }
+        submitArr.style.display = "block";
+
+        submitArr.innerHTML = "User Submit successful";
+        submitArr.style.color = "green"
+        setTimeout(function (){
+            submitArr.style.display = "none";
+        },3000);
+        return true;
+    
 }
 // -- Skills section Start here --
 let valueFst = document.getElementById("progressFst");

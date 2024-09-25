@@ -84,3 +84,17 @@ ul li:hover{
 #animat .progress .progress-value{
     margin-top: -20px;
 }
+.businees-ai{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 6px;
+    background-color: #aaf5ebc4;
+    border-radius: 5px;
+  }
+  .footer-div{
+    background-color: bisque;
+      
+      flex-wrap: wrap;
+      
+    }

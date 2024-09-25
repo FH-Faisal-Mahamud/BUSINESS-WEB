@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Arimo", sans-serif;
+    list-style: none;
 }
 body{
     background-color:#ebf3f3 ;
@@ -865,7 +866,42 @@ color: coral;
       transform: rotate(126deg);
   }
 }
-
+/* footer div start hear */
+.footer{
+  margin: 20px;
+  background-color: azure;
+}
+.footer-div{
+text-align: center;
+  display: flex;
+  margin: auto;
+}
+.footer-div div ul li{
+  margin: 10px;
+  font-size: 16px;
+}
+.businees-ai{
+  width: 20%;
+  margin: auto;
+  align-items: center;
+  padding: 6px;
+  background-color: #aaf5ebc4;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.businees-ai h3{
+  text-shadow: 2px 2px rgb(114, 184, 250);
+  transition: 0.5s;
+}
+.businees-ai h3:hover{
+  text-shadow: 2px 2px rgb(79, 164, 243);
+  transform: scale(1.1);
+}
+.businees-ai h3 a{
+  text-decoration: none;
+  color: #000;
+}
+/* footer div End hear */
 
 @media only screen and (max-width: 990px) {
   .progress{ 
@@ -900,6 +936,7 @@ color: coral;
     width: 100%;
   }
   }
+
   @media only screen and (max-width: 1200px) {
     .Testimoniall{
       margin: 5px;

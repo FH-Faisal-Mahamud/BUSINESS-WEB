@@ -109,7 +109,7 @@ function emailFn(){
     var validemail = /^([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,4}$)/;
     if(email.length === 0){
         emailArr.innerHTML = 'Email is not valid <i class="fa-solid fa-xmark" style="color: #f01414;"></i>';
-        emailArr.style.color = "red"
+        emailArr.style.color = "red";
         return false;
     }
 else if(!email.match(validemail)){
