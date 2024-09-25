@@ -867,6 +867,7 @@ color: coral;
   }
 }
 /* footer div start hear */
+
 .footer{
   margin: 20px;
   background-color: azure;
@@ -879,6 +880,7 @@ text-align: center;
 .footer-div div ul li{
   margin: 10px;
   font-size: 16px;
+  list-style: none;
 }
 .businees-ai{
   width: 20%;

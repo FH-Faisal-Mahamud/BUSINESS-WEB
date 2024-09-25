@@ -93,8 +93,6 @@ ul li:hover{
     border-radius: 5px;
   }
   .footer-div{
-    background-color: bisque;
-      
-      flex-wrap: wrap;
+    flex-direction: row;
       
     }
