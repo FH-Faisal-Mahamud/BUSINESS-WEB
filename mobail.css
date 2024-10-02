@@ -58,7 +58,13 @@ ul li:hover{
 }
 /* ---Sign-up dive stat--*/
 .progress-div{
+    width: 90%; 
+    margin: auto;
+    margin-left: 0;
+}
+.progres-div{
     width: 100%;
+    margin-top: 30px;
 }
 /* ---Sign-up dive end--*/
 .Testimoniall{
@@ -74,6 +80,7 @@ ul li:hover{
 #animat{
     flex-direction: row;
     align-items: center;
+    margin-right: 20px;
 
 }
 #animat .progress{
@@ -96,3 +103,7 @@ ul li:hover{
     flex-direction: row;
       
     }
+
+.copy-right{
+    width: 100% !important;
+}
