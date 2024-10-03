@@ -32,7 +32,9 @@ ul li:hover{
 }
 /*---search var end--*/
 /*----navbar end hear---*/
-
+#technicall{
+    font-size: 32px;
+}
 /*----about stat hear---*/
 .active img{
     height: 80vh;
